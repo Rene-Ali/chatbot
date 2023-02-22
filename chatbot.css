@@ -1,0 +1,51 @@
+#chat {
+    width: 400px;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bubble {
+    max-width: 75%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .bot .bubble {
+    background-color: lightgreen;
+    align-self: flex-start;
+  }
+  
+  .user .bubble {
+    background-color: lightblue;
+    align-self: flex-end;
+  }
+  
+  #input-container {
+    margin-top: 20px;
+  }
+  
+  #input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  #submit {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+  }
