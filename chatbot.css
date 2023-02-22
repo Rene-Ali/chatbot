@@ -1,51 +1,49 @@
-#chat {
-    width: 400px;
-    height: 300px;
-    overflow-y: scroll;
-    border: 1px solid black;
-    padding: 10px;
-  }
-  
-  .message {
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .bubble {
-    max-width: 75%;
-    margin: 5px;
-    padding: 10px;
-    border-radius: 10px;
-  }
-  
-  .bot .bubble {
-    background-color: lightgreen;
-    align-self: flex-start;
-  }
-  
-  .user .bubble {
-    background-color: lightblue;
-    align-self: flex-end;
-  }
-  
-  #input-container {
-    margin-top: 20px;
-  }
-  
-  #input {
-    width: 300px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    margin-right: 10px;
-  }
-  
-  #submit {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: dodgerblue;
-    color: white;
-    cursor: pointer;
-  }
+.chatbot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5px;
+  padding-top: 10vh;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  height: 10vh;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.chat-log {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+.chat-input input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.chat-input button {
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1{
+  text-align: center;
+}
